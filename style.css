@@ -1,0 +1,90 @@
+#slider-blue,
+#slider-red,
+#slider-green {
+  margin: 20px;
+}
+
+#slider-blue > .ui-slider-range {
+  background-color: blue;
+}
+#slider-blue > .ui-slider-handle {
+  outline: none;
+}
+#slider-blue > .ui-slider-handle:active {
+  background-color: blue;
+  border: 2px solid grey;
+}
+
+#slider-red > .ui-slider-range {
+  background-color: red;
+}
+#slider-red > .ui-slider-handle {
+  outline: none;
+}
+#slider-red > .ui-slider-handle:active {
+  background-color: red;
+  border: 2px solid grey;
+}
+
+#slider-green > .ui-slider-range {
+  background-color: green;
+}
+#slider-green > .ui-slider-handle {
+  outline: none;
+}
+#slider-green > .ui-slider-handle:active {
+  background-color: green;
+  border: 2px solid grey;
+}
+
+.block {
+  max-width: 400px;
+  /* border-radius: 1px solid grey; */
+  /* background-color: #fff; */
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%),
+    0 2px 4px -1px rgb(0 0 0 / 30%);
+}
+
+.block:hover {
+  box-shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%),
+    0 5px 5px -3px rgb(0 0 0 / 20%);
+}
+
+#buttons {
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  border-radius: 20px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.active {
+  background-color: black;
+}
+
+button:hover {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+}
